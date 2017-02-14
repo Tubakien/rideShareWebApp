@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="rideShareApp2:war exploded">
-    <output-path>$PROJECT_DIR$/target/rideShareApp2</output-path>
+  <artifact type="exploded-war" name="rideShareApp:war exploded">
+    <output-path>$PROJECT_DIR$/target/rideShareApp</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="rideShareApp2" />
+          <element id="module-output" name="rideShareApp" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: junit:junit:4.12" />
@@ -15,9 +15,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/rideShareApp2/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/rideShareApp/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="rideShareApp2/web/Web" />
+      <element id="javaee-facet-resources" facet="rideShareApp/web/Web" />
     </root>
   </artifact>
 </component>
