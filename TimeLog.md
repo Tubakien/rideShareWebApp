@@ -17,3 +17,9 @@
 * 2 hours work on jsps and templating
 * 1 hour find a suitable theme and apply bootstrap
 * 1 hour implement tomee authentication
+
+## Week 6
+* 1 hour troubleshooting DAO
+* 1.5 hours creating User DAO
+* 1 hour deploy app to AWS
+* .5 hours create database tables
