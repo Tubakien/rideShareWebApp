@@ -20,7 +20,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="NewPersistenceUnit" value="f8342de3-eb01-4efb-b575-1ab5155b69d7" />
+          <factory-entry name="NewPersistenceUnit" value="0e2801fb-ac4d-4461-9d45-8f0c03cf9e2c" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>

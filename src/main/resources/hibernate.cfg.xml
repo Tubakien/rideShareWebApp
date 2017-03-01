@@ -22,6 +22,7 @@
 
         <!-- List the annotated entity class/es -->
         <mapping class="com.entity.User"/>
+        <mapping class="com.entity.Vehicle"/>
 
     </session-factory>
 

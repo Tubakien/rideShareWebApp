@@ -4,6 +4,7 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
+// TODO: 1452 Cannot add or update a child row: a foreign key constraint fails
 /**
  * Created by student on 2/26/17.
  */
@@ -33,7 +34,6 @@ public class User {
     @GenericGenerator(name="increment", strategy = "increment")
     @Column(name="user_id")
     private int userId;
-    private int phone;
 
     public User() {
     }
@@ -42,10 +42,11 @@ public class User {
         this.username = username;
         this.email = email;
         this.phoneNumber = phone;
+        this.firstName = "";
+        this.lastName = "";
     }
 
-    @Basic
-    @Column(name = "first_name")
+
     public String getFirstName() {
         return firstName;
     }
@@ -54,8 +55,7 @@ public class User {
         this.firstName = firstName;
     }
 
-    @Basic
-    @Column(name = "last_name")
+
     public String getLastName() {
         return lastName;
     }
@@ -64,8 +64,6 @@ public class User {
         this.lastName = lastName;
     }
 
-    @Basic
-    @Column(name = "username")
     public String getUsername() {
         return username;
     }
@@ -74,8 +72,6 @@ public class User {
         this.username = username;
     }
 
-    @Basic
-    @Column(name = "email")
     public String getEmail() {
         return email;
     }
@@ -100,8 +96,6 @@ public class User {
         this.phoneNumber = phoneNumber;
     }
 
-    @Id
-    @Column(name = "user_id")
     public int getUserId() {
         return userId;
     }
@@ -123,15 +117,6 @@ public class User {
                 '}';
     }
 
-    @Basic
-    @Column(name = "phone")
-    public int getPhone() {
-        return phone;
-    }
-
-    public void setPhone(int phone) {
-        this.phone = phone;
-    }
 
     @Override
     public boolean equals(Object o) {
@@ -141,7 +126,7 @@ public class User {
         User user = (User) o;
 
         if (userId != user.userId) return false;
-        if (phone != user.phone) return false;
+        if (phoneNumber != user.phoneNumber) return false;
         if (firstName != null ? !firstName.equals(user.firstName) : user.firstName != null) return false;
         if (lastName != null ? !lastName.equals(user.lastName) : user.lastName != null) return false;
         if (username != null ? !username.equals(user.username) : user.username != null) return false;
@@ -157,7 +142,7 @@ public class User {
         result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
         result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
         result = 31 * result + (email != null ? email.hashCode() : 0);
-        result = 31 * result + phone;
+        result = 31 * result + phoneNumber;
         return result;
     }
 }

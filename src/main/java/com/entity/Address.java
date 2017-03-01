@@ -15,6 +15,13 @@ public class Address {
     private byte isBusiness;
     private String businessName;
 
+    public Address() {
+    }
+
+    public Address(String address) {
+        this.address = address;
+    }
+
     @Id
     @Column(name = "address_id")
     public int getAddressId() {
