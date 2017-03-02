@@ -1,10 +1,7 @@
 package com.persistence;
 
 import com.entity.User;
-import org.hibernate.HibernateException;
-import org.hibernate.SQLQuery;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
+import org.hibernate.*;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
@@ -16,6 +13,8 @@ import java.util.List;
 public class UserDao {
 
     private final Logger log = Logger.getLogger(this.getClass());
+    Session session;
+    Transaction trans;
 
     /** Return a list of all users
      *
@@ -28,6 +27,17 @@ public class UserDao {
         return users;
     }
 
+    public User getUser(String username) {
+        session = SessionFactoryProvider.getSessionFactory().openSession();
+        session.beginTransaction();
+
+        SQLQuery output = session.createSQLQuery("SELECT * FROM user WHERE username=\'test\'");
+        output.setResultTransformer(Criteria.ALIAS_TO_ENTITY_MAP);
+        List users =  output.list();
+        // TODO: get return from query to User Object
+        return users.get(0);
+    }
+
     /**
      * add a user
      *
@@ -35,8 +45,6 @@ public class UserDao {
      * @return the id of the inserted record.
      */
     public int addUser(User user) {
-        Session session = null;
-        Transaction trans = null;
         int id = 0;
         session = SessionFactoryProvider.getSessionFactory().openSession();
 

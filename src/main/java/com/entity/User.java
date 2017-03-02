@@ -44,6 +44,7 @@ public class User {
         this.phoneNumber = phone;
         this.firstName = "";
         this.lastName = "";
+        this.homeAddressId = 1; // This is set to a  dummy row in database;
     }
 
 
@@ -54,7 +55,6 @@ public class User {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-
 
     public String getLastName() {
         return lastName;

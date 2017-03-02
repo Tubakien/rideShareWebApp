@@ -16,43 +16,48 @@ import static org.junit.Assert.*;
  */
 public class UserDaoTest {
     UserDao dao;
+    User testUser;
 
     @Before
     public void setup() {
         dao = new UserDao();
+        testUser = new User("test", "test@test.com", 1234567890);
     }
 
     @Test
-    public void getAllUsers() throws Exception {
+    public void getAUserTest() throws Exception {
+        String username = "";
+        dao.addUser(testUser);
 
+        User returnUser = dao.getUser("test");
+
+        assertEquals("getAUserTest failed","test", returnUser.getUsername());
     }
 
     @Test
     public void addUser() throws Exception {
-        User user = new User("test", "test@test.com", 1234567890);
         String username = "";
-        dao.addUser(user);
+        dao.addUser(testUser);
 
-//        Session session = SessionFactoryProvider.getSessionFactory().openSession();
-//        session.beginTransaction();
-//
-//        SQLQuery output = session.createSQLQuery("SELECT username FROM user WHERE username=\'test\'");
-//        List<String> users = output.list();
-//
-//        if (users.size() > 0) {
-//            username = users.get(0);
-//        }
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        session.beginTransaction();
 
-        System.out.println(username);
-        assertEquals("addUser failed",1, 1);
+        SQLQuery output = session.createSQLQuery("SELECT username FROM user WHERE username=\'test\'");
+        List<String> users = output.list();
+
+        if (users.size() > 0) {
+            username = users.get(0);
+        }
+
+        assertEquals("addUser failed","test", username);
     }
 
-//    @After
-//    public void deleteTestUser() {
-//        Session session = SessionFactoryProvider.getSessionFactory().openSession();
-//        session.beginTransaction();
-//        SQLQuery query = session.createSQLQuery("DELETE FROM user WHERE username = \'test\'");
-//        query.executeUpdate();
-//        session.getTransaction().commit();
-//    }
+    @After
+    public void deleteTestUser() {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        session.beginTransaction();
+        SQLQuery query = session.createSQLQuery("DELETE FROM user WHERE username = \'test\'");
+        query.executeUpdate();
+        session.getTransaction().commit();
+    }
 }
