@@ -20,13 +20,11 @@ public class VehicleDao {
      * @return the id of the inserted record.
      */
     public int addVehicle(Vehicle vehicle) {
+        int id = 0;
         Session session = null;
         Transaction trans = null;
-        int id = 0;
-        session = SessionFactoryProvider.getSessionFactory().openSession();
-
         try {
-
+            session = SessionFactoryProvider.getSessionFactory().openSession();
             trans = session.beginTransaction();
             id = (int) session.save(vehicle); // INSERT statement
             trans.commit();
@@ -43,5 +41,6 @@ public class VehicleDao {
 
         return id;
     }
+}
 
 }

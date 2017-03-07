@@ -3,9 +3,11 @@ package com.persistence;
 import com.entity.User;
 import org.hibernate.*;
 import org.apache.log4j.Logger;
+import org.hibernate.transform.Transformers;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by student on 2/26/17.
@@ -13,8 +15,6 @@ import java.util.List;
 public class UserDao {
 
     private final Logger log = Logger.getLogger(this.getClass());
-    Session session;
-    Transaction trans;
 
     /** Return a list of all users
      *
@@ -27,15 +27,20 @@ public class UserDao {
         return users;
     }
 
-    public User getUser(String username) {
-        session = SessionFactoryProvider.getSessionFactory().openSession();
-        session.beginTransaction();
+    public User getUser(int id) {
+//        session = SessionFactoryProvider.getSessionFactory().openSession();
+//        session.beginTransaction();
+//
+//        SQLQuery output = session.createSQLQuery("SELECT * FROM user WHERE username=\'test\'");
+//        output.setResultTransformer(Transformers.aliasToBean(User.class));
+//        List users =  output.list();
+//        // TODO: get return from query to User Object
+//        System.out.println(users.get(0));
+//        return (User) users.get(0);
 
-        SQLQuery output = session.createSQLQuery("SELECT * FROM user WHERE username=\'test\'");
-        output.setResultTransformer(Criteria.ALIAS_TO_ENTITY_MAP);
-        List users =  output.list();
-        // TODO: get return from query to User Object
-        return users.get(0);
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        User user = (User) session.get(User.class, id);
+        return user;
     }
 
     /**
@@ -46,9 +51,10 @@ public class UserDao {
      */
     public int addUser(User user) {
         int id = 0;
-        session = SessionFactoryProvider.getSessionFactory().openSession();
-
+        Session session = null;
+        Transaction trans = null;
         try {
+            session = SessionFactoryProvider.getSessionFactory().openSession();
             trans = session.beginTransaction();
             id = (int) session.save(user); // INSERT statement
             trans.commit();
@@ -64,5 +70,56 @@ public class UserDao {
         }
 
         return id;
+    }
+
+    /**
+     * delete a user by id
+     * @param id the user's id
+     */
+    public void deleteUser(int id) {
+        Session session = null;
+        Transaction trans = null;
+        try {
+            session = SessionFactoryProvider.getSessionFactory().openSession();
+            trans = session.beginTransaction();
+            session.delete(getUser(id));
+            trans.commit();
+        } catch (HibernateException he) {
+            log.error("HibernateException: " + he);
+        } catch (Exception e) {
+            log.error("Exception: " + e.getMessage());
+        } finally {
+            if (session != null) {
+                session.close();
+            }
+        }
+    }
+
+    /**
+     * Update the user
+     * @param user
+     */
+
+    public void updateUser(User user) {
+        Session session = null;
+        Transaction trans = null;
+
+        try {
+            session = SessionFactoryProvider.getSessionFactory().openSession();
+            trans = session.beginTransaction();
+            user.setFirstName("test");
+            session.saveOrUpdate(user);
+            trans.commit();
+
+        } catch (HibernateException he) {
+            log.error("HibernateException: " + he);
+        } catch (Exception e) {
+            log.error("Exception: " + e.getMessage());
+        } finally {
+            if (session != null) {
+                session.close();
+            }
+        }
+
     }
 }

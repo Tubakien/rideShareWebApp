@@ -8,6 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.List;
+import java.util.Set;
 
 import static org.junit.Assert.*;
 
@@ -29,7 +30,8 @@ public class UserDaoTest {
         String username = "";
         dao.addUser(testUser);
 
-        User returnUser = dao.getUser("test");
+        User returnUser = dao.getUser(1);
+        System.out.println("----Email: " + returnUser.getEmail());
 
         assertEquals("getAUserTest failed","test", returnUser.getUsername());
     }
@@ -37,12 +39,12 @@ public class UserDaoTest {
     @Test
     public void addUser() throws Exception {
         String username = "";
-        dao.addUser(testUser);
+        int userId = dao.addUser(testUser);
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         session.beginTransaction();
 
-        SQLQuery output = session.createSQLQuery("SELECT username FROM user WHERE username=\'test\'");
+        SQLQuery output = session.createSQLQuery("SELECT username as Username FROM user WHERE username=\'test\'");
         List<String> users = output.list();
 
         if (users.size() > 0) {

@@ -24,7 +24,11 @@ public class VehicleDaoTest {
         vehicle.setModel("Prius");
         vehicle.setYear(2010);
 
-        dao.addVehicle(vehicle);
+        int vehicleId = dao.addVehicle(vehicle);
+
+
+        assertEquals("addVehicleTest failed", , vehicleId);
+
     }
 
 }

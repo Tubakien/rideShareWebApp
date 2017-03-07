@@ -4,7 +4,7 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
-// TODO: 1452 Cannot add or update a child row: a foreign key constraint fails
+// TO DO (Solved) 1452 Cannot add or update a child row: a foreign key constraint fails
 /**
  * Created by student on 2/26/17.
  */
@@ -39,6 +39,7 @@ public class User {
     }
 
     public User(String username, String email, int phone) {
+        this.userId = 0;
         this.username = username;
         this.email = email;
         this.phoneNumber = phone;
