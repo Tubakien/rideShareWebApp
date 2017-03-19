@@ -2,7 +2,7 @@
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
 
     <persistence-unit name="NewPersistenceUnit">
-        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!--<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>-->
         <class>com.entity.Address</class>
         <class>com.entity.Ride</class>
         <class>com.entity.RideRequest</class>

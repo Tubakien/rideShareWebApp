@@ -27,7 +27,7 @@ public class VehicleDaoTest {
         int vehicleId = dao.addVehicle(vehicle);
 
 
-        assertEquals("addVehicleTest failed", , vehicleId);
+        assertEquals("addVehicleTest failed", 0, vehicleId);
 
     }
 
