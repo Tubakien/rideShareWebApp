@@ -17,3 +17,9 @@
 * 2 hours work on jsps and templating
 * 1 hour find a suitable theme and apply bootstrap
 * 1 hour implement tomee authentication
+
+## Week 8
+* 2 hours Hibernate troubleshooting
+
+## Spring Break
+* 1 hour Hibernate troubleshooting
