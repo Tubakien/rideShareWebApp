@@ -23,3 +23,6 @@
 
 ## Spring Break
 * 1 hour Hibernate troubleshooting
+
+## Week 9 
+* 1 Hibernate troubleshooting
