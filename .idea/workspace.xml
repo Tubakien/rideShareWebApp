@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="971292b2-ed5b-42ba-8236-5f25e937388d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1085,7 +1083,7 @@
       <workItem from="1490215464343" duration="14000" />
       <workItem from="1490215701382" duration="1308000" />
       <workItem from="1490221224443" duration="142000" />
-      <workItem from="1490223177515" duration="4543000" />
+      <workItem from="1490223177515" duration="4584000" />
     </task>
     <task id="LOCAL-00001" summary="New project INIT COMMIT">
       <created>1487109037258</created>
@@ -1206,7 +1204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490227027196</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Created MET-INF under webapp directory and a context.xml  file as per Mike Young's tips from #authentication.">
+      <created>1490227764495</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1490227764495</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1242,7 +1247,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53872000" />
+    <option name="totallyTimeSpent" value="53913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1367,7 +1372,8 @@
     <MESSAGE value="Fixed foreign key constraint by adding dummy data to foreign key table. Now I'm troubleshooting UserDao" />
     <MESSAGE value="I'm going to guess that it's okay  to get a list of users because we can do the logic in java, so I restructured the Daos to reflect the week 3 exercise. Working on getting more DAOs up." />
     <MESSAGE value="FIXED - persistence.xml needed to comment out the &lt;provider&gt; tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="FIXED - persistence.xml needed to comment out the &lt;provider&gt; tag" />
+    <MESSAGE value="Created MET-INF under webapp directory and a context.xml  file as per Mike Young's tips from #authentication." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created MET-INF under webapp directory and a context.xml  file as per Mike Young's tips from #authentication." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
