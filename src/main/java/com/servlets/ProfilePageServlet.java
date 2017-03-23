@@ -13,7 +13,7 @@ import javax.servlet.http.*;
 @WebServlet(
         name = "profilePage",
         urlPatterns = {"/myprofile"}
-) public class ProfilePageServlet {
+) public class ProfilePageServlet extends HttpServlet {
     /**
      *  Handles HTTP GET requests.
      *
@@ -46,4 +46,6 @@ import javax.servlet.http.*;
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
         dispatcher.forward(request, response);
     }
+
+
 }
