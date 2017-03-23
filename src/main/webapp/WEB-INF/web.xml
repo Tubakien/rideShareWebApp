@@ -7,13 +7,12 @@
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>edit</web-resource-name>
-      <url-pattern>/edit.jsp</url-pattern>
+      <url-pattern>/myProfile.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>admin</role-name>
     </auth-constraint>
   </security-constraint>
-
 
   <login-config>
     <auth-method>FORM</auth-method>
@@ -22,4 +21,12 @@
       <form-error-page>/failedLogin.jsp</form-error-page>
     </form-login-config>
   </login-config>
+  <!--<servlet>-->
+    <!--<servlet-name>profilePage</servlet-name>-->
+    <!--<jsp-file>myProfile.jsp</jsp-file>-->
+  <!--</servlet>-->
+  <!--<servlet-mapping>-->
+    <!--<servlet-name>profilePage</servlet-name>-->
+    <!--<url-pattern>/myprofile</url-pattern>-->
+  <!--</servlet-mapping>-->
 </web-app>
