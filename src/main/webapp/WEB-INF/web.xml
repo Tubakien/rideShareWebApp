@@ -4,4 +4,22 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>edit</web-resource-name>
+      <url-pattern>/edit.jsp</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>admin</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+
+  <login-config>
+    <auth-method>FORM</auth-method>
+    <form-login-config>
+      <form-login-page>/login.jsp</form-login-page>
+      <form-error-page>/failedLogin.jsp</form-error-page>
+    </form-login-config>
+  </login-config>
 </web-app>
