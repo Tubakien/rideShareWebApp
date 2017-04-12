@@ -1,9 +1,6 @@
 package com.entity;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 /**
  * Created by student on 2/28/17.
@@ -17,6 +14,29 @@ public class Ride {
     private String riderUserIds;
     private byte rideIsFull;
     private String pickupAddressesIds;
+
+    private User vehicleOwnerUser;
+    private VehicleOwner vehicleOwner;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "vehicle_owner_user_id")
+    public User getVehicleOwnerUser() {
+        return vehicleOwnerUser;
+    }
+
+    public void setVehicleOwnerUser(User user) {
+        this.vehicleOwnerUser = user;
+    }
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "vehicle_owner_vehicle_id")
+    public VehicleOwner getVehicleOwnerVehicle() {
+        return vehicleOwner;
+    }
+
+    public void setVehicleOwnerVehicle(VehicleOwner vehicleOwner) {
+        this.vehicleOwner = vehicleOwner;
+    }
 
     @Id
     @Column(name = "ride_id")
