@@ -1,0 +1,853 @@
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+SQL Error: 1146, SQLState: 42S02
+Table 'ride_share.users' doesn't exist
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1054, SQLState: 42S22
+Unknown column 'homeAddressId' in 'field list'
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1054, SQLState: 42S22
+Unknown column 'homeAddressId' in 'field list'
+HibernateException: org.hibernate.exception.SQLGrammarException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1054, SQLState: 42S22
+Unknown column 'homeAddressId' in 'field list'
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1054, SQLState: 42S22
+Unknown column 'homeAddressId' in 'field list'
+HibernateException: org.hibernate.exception.SQLGrammarException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1054, SQLState: 42S22
+Unknown column 'homeAddressId' in 'field list'
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1054, SQLState: 42S22
+Unknown column 'homeAddressId' in 'field list'
+HibernateException: org.hibernate.exception.SQLGrammarException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1054, SQLState: 42S22
+Unknown column 'homeAddressId' in 'field list'
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1054, SQLState: 42S22
+Unknown column 'homeAddressId' in 'field list'
+HibernateException: org.hibernate.exception.SQLGrammarException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1054, SQLState: 42S22
+Unknown column 'homeAddressId' in 'field list'
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1054, SQLState: 42S22
+Unknown column 'homeAddressId' in 'field list'
+HibernateException: org.hibernate.exception.SQLGrammarException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HibernateException: org.hibernate.MappingException: Unknown entity: com.entity.Vehicle
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1146, SQLState: 42S02
+Table 'ride_share.Vehicle' doesn't exist
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1146, SQLState: 42S02
+Table 'ride_share.Vehicle' doesn't exist
+HibernateException: org.hibernate.exception.SQLGrammarException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1146, SQLState: 42S02
+Table 'ride_share.Vehicle' doesn't exist
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1146, SQLState: 42S02
+Table 'ride_share.Vehicle' doesn't exist
+HibernateException: org.hibernate.exception.SQLGrammarException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1054, SQLState: 42S22
+Unknown column 'homeAddressId' in 'field list'
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1054, SQLState: 42S22
+Unknown column 'homeAddressId' in 'field list'
+HibernateException: org.hibernate.exception.SQLGrammarException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`ride_share`.`user`, CONSTRAINT `fk_user_address1` FOREIGN KEY (`home_address_id`) REFERENCES `address` (`address_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+HibernateException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1146, SQLState: 42S02
+Table 'ride_share.Vehicle' doesn't exist
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1146, SQLState: 42S02
+Table 'ride_share.Vehicle' doesn't exist
+HibernateException: org.hibernate.exception.SQLGrammarException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1146, SQLState: 42S02
+Table 'ride_share.Vehicle' doesn't exist
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1146, SQLState: 42S02
+Table 'ride_share.Vehicle' doesn't exist
+HibernateException: org.hibernate.exception.SQLGrammarException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ride_share]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1146, SQLState: 42S02
+Table 'ride_share.Vehicle' doesn't exist
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1146, SQLState: 42S02
+Table 'ride_share.Vehicle' doesn't exist
+HibernateException: org.hibernate.exception.SQLGrammarException: could not execute statement
