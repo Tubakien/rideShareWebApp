@@ -26,3 +26,6 @@
 
 ## Week 9 
 * 1 Hibernate troubleshooting
+
+## Week 11
+* 1 hour backend work
