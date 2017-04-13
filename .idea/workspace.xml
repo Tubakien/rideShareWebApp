@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="971292b2-ed5b-42ba-8236-5f25e937388d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore/gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/persistence/RideDao.java" />
+    <list default="true" id="971292b2-ed5b-42ba-8236-5f25e937388d" name="Default" comment="added database diagram">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todolist.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rideShareApp2.iml" afterPath="$PROJECT_DIR$/rideShareApp2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/persistence/VehicleOwnerDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/persistence/VehicleOwnerDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/persistence/RideDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/persistence/RideDaoTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,7 +40,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
+    <splitter split-orientation="vertical" split-proportion="0.5871172">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
@@ -66,7 +66,7 @@
           <file leaf-file-name="VehicleOwnerDao.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/persistence/VehicleOwnerDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="296">
+                <state relative-caret-position="648">
                   <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -75,23 +75,103 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RideDao.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/persistence/RideDao.java">
+          <file leaf-file-name="VehicleOwner.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/VehicleOwner.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="163">
-                  <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+                <state relative-caret-position="324">
+                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#508#509#0" expanded="false" />
+                    <element signature="e#537#538#0" expanded="false" />
+                    <element signature="e#578#579#0" expanded="false" />
+                    <element signature="e#614#615#0" expanded="false" />
+                    <element signature="e#688#689#0" expanded="false" />
+                    <element signature="e#720#721#0" expanded="false" />
+                    <element signature="e#767#768#0" expanded="false" />
+                    <element signature="e#809#810#0" expanded="false" />
+                    <element signature="e#908#909#0" expanded="false" />
+                    <element signature="e#950#951#0" expanded="false" />
+                    <element signature="e#1017#1018#0" expanded="false" />
+                    <element signature="e#1079#1080#0" expanded="false" />
+                    <element signature="e#1143#1144#0" expanded="false" />
+                    <element signature="e#1169#1170#0" expanded="false" />
+                    <element signature="e#1204#1205#0" expanded="false" />
+                    <element signature="e#1234#1235#0" expanded="false" />
+                    <element signature="e#1330#1331#0" expanded="false" />
+                    <element signature="e#1370#1371#0" expanded="false" />
+                    <element signature="e#1436#1437#0" expanded="false" />
+                    <element signature="e#1494#1495#0" expanded="false" />
+                    <element signature="e#1584#1585#0" expanded="false" />
+                    <element signature="e#1621#1622#0" expanded="false" />
+                    <element signature="e#1681#1682#0" expanded="false" />
+                    <element signature="e#1733#1734#0" expanded="false" />
+                    <element signature="e#1819#1820#0" expanded="false" />
+                    <element signature="e#1854#1855#0" expanded="false" />
+                    <element signature="e#1910#1911#0" expanded="false" />
+                    <element signature="e#1958#1959#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="gitignore.txt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore/gitignore.txt">
+          <file leaf-file-name="todolist.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/todolist.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="162">
+                    <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RideDao.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/persistence/RideDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="1134">
+                  <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/persistence/UserDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Ride.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Ride.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RideDaoTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/persistence/RideDaoTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="78">
+                  <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/User.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="159">
+                  <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -100,12 +180,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="VehicleOwnerDao.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/persistence/VehicleOwnerDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="314">
-                  <caret line="31" column="18" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="31" selection-end-column="18" />
+                <state relative-caret-position="298">
+                  <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -165,14 +245,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/entity/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/entity/VehicleTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/entity/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/persistence/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/persistence/VehicleDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/persistence/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/theme/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/content/content-index.jsp" />
-        <option value="$PROJECT_DIR$/TimeLog.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/failedLogin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/servlet/myProfileServlet.java" />
@@ -190,6 +268,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/persistence/VehicleOwnerDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/persistence/RideDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/persistence/EntityAdder.java" />
+        <option value="$PROJECT_DIR$/TimeLog.md" />
+        <option value="$PROJECT_DIR$/todolist.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/persistence/RideDaoTest.java" />
       </list>
     </option>
   </component>
@@ -214,10 +296,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1081" />
-    <option name="y" value="59" />
-    <option name="width" value="1474" />
-    <option name="height" value="1019" />
+    <option name="x" value="73" />
+    <option name="y" value="27" />
+    <option name="width" value="1847" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -278,6 +360,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -546,8 +630,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -585,117 +667,6 @@
       <recent name="$PROJECT_DIR$/../PriceCheckCrowdSourceAPI" />
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/persistence/VehicleOwnerDao.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="TomEE Server.runOnLocalMachine">
     <configuration default="false" name="UserDaoTest.getAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -1240,6 +1211,8 @@
       <workItem from="1490573425945" duration="817000" />
       <workItem from="1491877314017" duration="716000" />
       <workItem from="1492029172746" duration="1484000" />
+      <workItem from="1492037619302" duration="3207000" />
+      <workItem from="1492043061071" duration="335000" />
     </task>
     <task id="LOCAL-00001" summary="New project INIT COMMIT">
       <created>1487109037258</created>
@@ -1388,7 +1361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490231062113</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Time logged">
+      <created>1492039184874</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1492039184874</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1424,7 +1404,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63395000" />
+    <option name="totallyTimeSpent" value="66937000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1436,8 +1416,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1081" y="59" width="1474" height="1019" extended-state="0" />
-    <editor active="false" />
+    <frame x="73" y="27" width="1847" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1454,15 +1434,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.468849" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12595838" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2954279" sideWeight="0.49283668" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12595838" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31941545" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20435393" sideWeight="0.53810084" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26966292" sideWeight="0.4618992" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27657208" sideWeight="0.5447316" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27657208" sideWeight="0.45526838" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1471,7 +1452,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46896553" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1553,7 +1533,9 @@
     <MESSAGE value="Added extends HTTPServlet in ProfilePageServlet.java class declaration" />
     <MESSAGE value="Work on ProfilePageServlet and myProfile.jsp" />
     <MESSAGE value="Fixed unrecognized taglib for jstl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed unrecognized taglib for jstl" />
+    <MESSAGE value="Time logged" />
+    <MESSAGE value="added database diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="added database diagram" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1566,20 +1548,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/RideRequestEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/RideEntity.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/AddressEntity.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar!/org/hibernate/internal/SessionFactoryImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1214" column="0" lean-forward="false" selection-start-line="1214" selection-start-column="0" selection-end-line="1214" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Ride.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1651,24 +1624,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/VehicleOwner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1694,16 +1653,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Screen Design.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="18">
-            <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Class Diagram.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="18">
@@ -1740,16 +1689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TimeLog.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1757,13 +1696,6 @@
             <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/persistence/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1913,9 +1845,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/persistence/EntityAdder.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore/gitignore.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TimeLog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="347">
+            <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/persistence/RideDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/persistence/VehicleOwnerDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
+        <state relative-caret-position="648">
           <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1923,28 +1882,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/persistence/EntityAdder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/Class Diagram.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/persistence/RideDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/VehicleOwner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#537#538#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#614#615#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#809#810#0" expanded="false" />
+            <element signature="e#908#909#0" expanded="false" />
+            <element signature="e#950#951#0" expanded="false" />
+            <element signature="e#1017#1018#0" expanded="false" />
+            <element signature="e#1079#1080#0" expanded="false" />
+            <element signature="e#1143#1144#0" expanded="false" />
+            <element signature="e#1169#1170#0" expanded="false" />
+            <element signature="e#1204#1205#0" expanded="false" />
+            <element signature="e#1234#1235#0" expanded="false" />
+            <element signature="e#1330#1331#0" expanded="false" />
+            <element signature="e#1370#1371#0" expanded="false" />
+            <element signature="e#1436#1437#0" expanded="false" />
+            <element signature="e#1494#1495#0" expanded="false" />
+            <element signature="e#1584#1585#0" expanded="false" />
+            <element signature="e#1621#1622#0" expanded="false" />
+            <element signature="e#1681#1682#0" expanded="false" />
+            <element signature="e#1733#1734#0" expanded="false" />
+            <element signature="e#1819#1820#0" expanded="false" />
+            <element signature="e#1854#1855#0" expanded="false" />
+            <element signature="e#1910#1911#0" expanded="false" />
+            <element signature="e#1958#1959#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore/gitignore.txt">
+    <entry file="file://$PROJECT_DIR$/todolist.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="162">
+            <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/persistence/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Ride.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/persistence/RideDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="41" />
           <folding />
         </state>
       </provider>

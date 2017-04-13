@@ -14,20 +14,25 @@ import static org.junit.Assert.*;
 public class RideDaoTest {
     RideDao dao;
     Ride testRide;
+    User user;
+    VehicleOwner vehicleOwner;
 
     @Before
     public void setup() {
         dao = new RideDao();
         testRide = new Ride();
+        user = new User();
+        user.setUserId(1);
+        vehicleOwner = new VehicleOwner();
+
         testRide.setDepartTime("0830");
         testRide.setPickupAddressesIds("12");
         testRide.setRecurrence("MWF");
         testRide.setRideIsFull((byte) 1);
         testRide.setVehicleId(1);
         testRide.setRiderUserIds("1,2,3");
-        testRide.setVehicleOwnerUser(new User());
+//        testRide.setVehicleOwnerUser();
         testRide.setVehicleOwnerVehicle(new VehicleOwner());
-
 
     }
 

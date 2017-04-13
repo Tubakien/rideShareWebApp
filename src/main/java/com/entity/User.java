@@ -39,6 +39,7 @@ public class User {
     }
 
     public User(String username, String email, int phone) {
+        this();
         this.userId = 0;
         this.username = username;
         this.email = email;
