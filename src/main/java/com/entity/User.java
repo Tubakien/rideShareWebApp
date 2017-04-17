@@ -11,6 +11,8 @@ import javax.persistence.*;
 @Entity
 @Table(name="user")
 public class User {
+//    private VehicleOwner vehicleOwner;
+
     @Column(name="first_name")
     private String firstName;
 
@@ -46,6 +48,7 @@ public class User {
         this.phoneNumber = phone;
         this.firstName = "";
         this.lastName = "";
+//        this.vehicleOwner = null;
         this.homeAddressId = 1; // This is set to a  dummy row in database;
     }
 
@@ -105,6 +108,15 @@ public class User {
     public void setUserId(int userId) {
         this.userId = userId;
     }
+
+//    @OneToOne(fetch = FetchType.LAZY, mappedBy = "vehicle_owner", cascade = CascadeType.ALL)
+//    public void setVehicleOwner(VehicleOwner vehicleOwner) {
+//        this.vehicleOwner = vehicleOwner;
+//    }
+//
+//    public VehicleOwner getVehicleOwner() {
+//        return this.vehicleOwner;
+//    }
 
     @Override
     public String toString() {

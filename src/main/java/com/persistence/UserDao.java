@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Created by student on 2/26/17.
+ * Created by Kien Warren on 2/26/17.
  */
 public class UserDao {
 
@@ -28,18 +28,20 @@ public class UserDao {
     }
 
     public User getUser(int id) {
-//        session = SessionFactoryProvider.getSessionFactory().openSession();
-//        session.beginTransaction();
-//
-//        SQLQuery output = session.createSQLQuery("SELECT * FROM user WHERE username=\'test\'");
-//        output.setResultTransformer(Transformers.aliasToBean(User.class));
-//        List users =  output.list();
-//        // TODO: get return from query to User Object
-//        System.out.println(users.get(0));
-//        return (User) users.get(0);
-
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        User user = (User) session.get(User.class, id);
+        Transaction transaction = null;
+        User user = null;
+
+        try {
+            transaction = session.beginTransaction();
+            user = (User) session.get(User.class, id);
+            transaction.commit();
+        }catch (HibernateException hibernateException) {
+            if (transaction!=null) transaction.rollback();
+            log.error("Hibernate Exception", hibernateException);
+        }finally {
+            session.close();
+        }
         return user;
     }
 
@@ -99,7 +101,6 @@ public class UserDao {
      * Update the user
      * @param user
      */
-
     public void updateUser(User user) {
         Session session = null;
         Transaction trans = null;

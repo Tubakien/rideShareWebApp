@@ -1,30 +1,46 @@
 package com.entity;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 
 /**
  * Created by student on 2/28/17.
  */
 @Entity
-@Table(name = "vehicle_owner", schema = "ride_share", catalog = "")
+@Table(name = "vehicle_owner", schema = "ride_share")
 @IdClass(VehicleOwnerPK.class)
 public class VehicleOwner {
     private int userId;
+    private User user;
     private int vehicleId;
+    private Vehicle vehicle;
     private int maxRidersInclDriver;
     private int vin;
     private String insuranceProvider;
     private String driversLicense;
     private String licensePlate;
 
+    @GenericGenerator(name="generator", strategy = "foreign")
     @Id
-    @Column(name = "user_id")
+    @GeneratedValue(generator = "generator")
+    @Column(name = "user_id", unique=true, nullable = false)
     public int getUserId() {
         return userId;
     }
 
     public void setUserId(int userId) {
         this.userId = userId;
+    }
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @PrimaryKeyJoinColumn
+    public User getUser() {
+        return this.user;
+    }
+
+    public void setUser(User user ) {
+        this.user = user;
     }
 
     @Id
@@ -37,7 +53,8 @@ public class VehicleOwner {
         this.vehicleId = vehicleId;
     }
 
-    @Basic
+
+
     @Column(name = "max_riders_incl_driver")
     public int getMaxRidersInclDriver() {
         return maxRidersInclDriver;
@@ -47,7 +64,6 @@ public class VehicleOwner {
         this.maxRidersInclDriver = maxRidersInclDriver;
     }
 
-    @Basic
     @Column(name = "vin")
     public int getVin() {
         return vin;
@@ -57,7 +73,6 @@ public class VehicleOwner {
         this.vin = vin;
     }
 
-    @Basic
     @Column(name = "insurance_provider")
     public String getInsuranceProvider() {
         return insuranceProvider;
@@ -67,7 +82,6 @@ public class VehicleOwner {
         this.insuranceProvider = insuranceProvider;
     }
 
-    @Basic
     @Column(name = "drivers_license")
     public String getDriversLicense() {
         return driversLicense;
@@ -77,7 +91,6 @@ public class VehicleOwner {
         this.driversLicense = driversLicense;
     }
 
-    @Basic
     @Column(name = "license_plate")
     public String getLicensePlate() {
         return licensePlate;
