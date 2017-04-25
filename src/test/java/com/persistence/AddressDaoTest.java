@@ -30,7 +30,7 @@ public class AddressDaoTest {
 
         if (addresses.size() > 0) {
             addressesLength = true;
-        } else {
+        } else {//
             addressesLength = false;
         }
         assertTrue(addressesLength);
