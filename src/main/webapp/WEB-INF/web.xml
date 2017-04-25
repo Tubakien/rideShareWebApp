@@ -4,6 +4,7 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+<!-- UNCOMMENT TO ALLOW LOGGING IN
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>edit</web-resource-name>
@@ -21,6 +22,8 @@
       <form-error-page>/failedLogin.jsp</form-error-page>
     </form-login-config>
   </login-config>
+-->
+
   <!--<servlet>-->
     <!--<servlet-name>profilePage</servlet-name>-->
     <!--<jsp-file>myProfile.jsp</jsp-file>-->

@@ -21,9 +21,15 @@ public class UserDao {
      * @return All users
      */
     public List<User> getAllUsers() {
-        List<User> users = new ArrayList<User>();
+        List<User> users = null;
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        users = session.createCriteria(User.class).list();
+        try {
+            users = session.createCriteria(User.class).list();
+        } catch (HibernateException e) {
+            log.error("Hibernate Exception", e);
+        }finally {
+            session.close();
+        }
         return users;
     }
 
@@ -35,12 +41,13 @@ public class UserDao {
         try {
             transaction = session.beginTransaction();
             user = (User) session.get(User.class, id);
-            transaction.commit();
         }catch (HibernateException hibernateException) {
             if (transaction!=null) transaction.rollback();
             log.error("Hibernate Exception", hibernateException);
         }finally {
-            session.close();
+            if (session != null) {
+                session.close();
+            }
         }
         return user;
     }
@@ -61,7 +68,9 @@ public class UserDao {
             id = (int) session.save(user); // INSERT statement
             trans.commit();
         } catch (HibernateException he) {
-            if (trans!=null) trans.rollback();
+            if (trans!=null) {
+                trans.rollback();
+            }
             log.error("HibernateException: " + he);
         } catch (Exception e) {
             log.error("Exception: " + e.getMessage());
@@ -108,10 +117,8 @@ public class UserDao {
         try {
             session = SessionFactoryProvider.getSessionFactory().openSession();
             trans = session.beginTransaction();
-            user.setFirstName("test");
             session.saveOrUpdate(user);
             trans.commit();
-
         } catch (HibernateException he) {
             log.error("HibernateException: " + he);
         } catch (Exception e) {

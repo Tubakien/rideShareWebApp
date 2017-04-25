@@ -13,7 +13,7 @@ import java.util.Set;
 import static org.junit.Assert.*;
 
 /**
- * Created by student on 2/26/17.
+ * Created by Kien Warren on 2/26/17.
  */
 public class UserDaoTest {
     UserDao dao;
